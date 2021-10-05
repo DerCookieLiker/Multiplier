@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer></script>
+        <!-- Bootstrap -->
+        
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/6fedced9fe.js" crossorigin="anonymous" defer></script>
+        <!-- Fontawesome -->
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="css/general.css">
+        <!-- CSS -->
+
+        <!-- JS -->
+        <script src="./js/script.js" defer></script>
+        <!-- JS -->
+        <title>Money Excerpt</title>
+    </head>
+    <body>
+        <div class="container bg-dark p-md-5 mt-md-5">
+                <h1 class="text-center">Simple Multiplier</h1>
+                <div class="row mb-3">
+                    <label class="col-form-label col-sm-1">Factor</label>
+                    <div class="col-sm-5">
+                        <input class="input-dark form-control" type="number" id="factorNumber">
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="col-sm-1"></label>
+                    <div class="col-sm-5">
+                        <button class="btn btn-primary col-sm-2" id="multiply">Multiply</button>
+                        <button class="btn btn-danger col-sm-2" id="reset">Reset</button>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <label class="col-form-label col-sm-1">Product</label>
+                    <div class="col-sm-5">
+                        <output class="input-dark form-control" id="product">1</output>
+                    </div>
+                </div>
+        </div>
+    </body>
+</html>
