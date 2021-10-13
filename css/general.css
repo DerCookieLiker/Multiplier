@@ -19,7 +19,7 @@ body{
 .insetShadow{
     box-shadow: inset 5em 1em rgba(0, 0, 0, 0.5);
 }
-.hidden{
+.hidden, .hide{
     display: none;
 }
 .curser-pointer{

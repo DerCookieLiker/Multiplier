@@ -1,0 +1,12 @@
+.history{
+    width: 15vw;
+    padding-left: 0px;
+}
+.historyItem{
+    list-style: none;
+    background-color: rgb(83, 83, 83);
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 3px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
