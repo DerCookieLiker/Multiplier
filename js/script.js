@@ -31,7 +31,7 @@ class ViewModel {
             
             this.sendRequest(
                 "GET", 
-                "https://calcservice.getsandbox.com/evaluate",
+                "http://localhost:8080",
                 {
                     operand1: factor,
                     operator: '*',
