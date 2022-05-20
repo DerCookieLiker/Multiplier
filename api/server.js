@@ -8,7 +8,7 @@ http.createServer((req, res) => {
     let q = url.parse(req.url, true);
     let calcObj = {
         operand1: Number(q.query.operand1),
-        operator: q.query.operator,
+        operator: decodeURIComponent(q.query.operator),
         operand2: Number(q.query.operand2)
     }
     res.end(JSON.stringify(calculate(calcObj)));

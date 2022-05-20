@@ -34,7 +34,7 @@ class ViewModel {
                 "http://localhost:8080",
                 {
                     operand1: factor,
-                    operator: '*',
+                    operator: encodeURIComponent('*'),
                     operand2: document.getElementById("product").innerHTML
                 },
                 {},
